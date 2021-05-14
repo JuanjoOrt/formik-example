@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+.form{
+  width: 20rem;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container-input{
+  display: flex;
+  flex-direction: column;
+  height: 7rem;
+}
+
+.input-field{
+  width: 20rem;
+  height: 2rem;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+.input-error{
+  border: 2px solid tomato
+}
+
+.input-error-label{
+  color: tomato;
+  font-size: 15px;
+  text-align: left;
+}
+
+.input-label{
+  height: 20px;
+  width: 100%;
+}
